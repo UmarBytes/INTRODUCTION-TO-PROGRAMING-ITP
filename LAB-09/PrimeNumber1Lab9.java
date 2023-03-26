@@ -9,8 +9,8 @@ public class PrimeNumber1Lab9{
                          boolean isprime = true;
                          int i =2;
                         
-                       while(i<sqrt){
-                       if(number %2 == 0){
+                       while(i<=sqrt){
+                       if(number % i == 0){
                                   isprime =false;
                         }//if
                         ++i;
